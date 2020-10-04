@@ -1,3 +1,3 @@
-import HomeActions from "./homeActions";
+import * as HomeActions from "./homeActions";
 
-export const ActionCreator = Object.assign({}, HomeActions);
+export const ActionCreators = Object.assign({}, HomeActions);
